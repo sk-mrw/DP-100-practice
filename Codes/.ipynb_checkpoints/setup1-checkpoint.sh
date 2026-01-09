@@ -15,8 +15,8 @@ echo "Suffix: $suffix"
 # Set the necessary variables
 RESOURCE_GROUP="rg-dp100-l${suffix}"
 RESOURCE_PROVIDER="Microsoft.MachineLearningServices"
-REGIONS=("eastus" "westus" "centralus" "northeurope" "westeurope")
-RANDOM_REGION=${REGIONS[$RANDOM % ${#REGIONS[@]}]}
+REGIONS="eastus" #"westus" "centralus" "northeurope" "westeurope")
+# RANDOM_REGION=${REGIONS[$RANDOM % ${#REGIONS[@]}]}
 WORKSPACE_NAME="mlw-dp100-l${suffix}"
 COMPUTE_INSTANCE="ci${suffix}"
 COMPUTE_CLUSTER="aml-cluster"
