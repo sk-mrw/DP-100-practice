@@ -86,3 +86,18 @@
 - **Iteration timeout**: Max time per model
 - **Max iterations**: Maximum models to try
 - **Max concurrent iterations**: Parallel experiments
+
+
+1. How to create dataset from web/upload
+
+
+2. AutoML configuration parameters
+
+
+3. Difference between primary metrics
+
+
+4. How feature importance helps interpretation
+
+
+5. Exit criteria impact on training time/cost
